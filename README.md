@@ -10,7 +10,7 @@ Challanges found on http://flare-on.com/, pw: infected
 
 ## MinesweeperChampionshipRegistration
 
- - Opening the file ```MinesweeperChampionshipRegistration.jar``` opens a program looking like this: ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/MinesweeperChampionship1.png)
+ - Opening the file ```MinesweeperChampionshipRegistration.jar``` we look at a program: ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/MinesweeperChampionship1.png)
  - From here, I started to look into how a .jar file could be decompiled. I uploaded the file to ```http://www.javadecompilers.com/``` and got the following code back: ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/MinesweeperChampionship2.png)
  - Easy is it to see if we type ```GoldenTicket2018@flare-on.com``` we will pass the check. 
  - ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/MinesweeperChampionship3.png)
