@@ -10,7 +10,9 @@ Challanges found on http://flare-on.com/, pw: infected
 
 ## MinesweeperChampionshipRegistration
 
- - Opening the file 
+ - Opening the file ```MinesweeperChampionshipRegistration.jar``` opens a program looking like this: ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/MinesweeperChampionship1.png)
+ 
+ 
 
 
 # FLARE-On Challange 6 (step-by-step approach)
