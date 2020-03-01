@@ -29,7 +29,7 @@ Challanges found on http://flare-on.com/, pw: infected
 - It should now be possible to iterate through the array and find 3 elements not set to 1 (these should be the flags).
 - We find the the pointer chain so we have the correct addresses everytime we start a new game.
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper4.png)
-- Small program to always find the flags.
+- By changing the values in minesVisible from 0 to 1 we can now reveal where the all non-mine squares are.
 
 
 # FLARE-On Challange 6 (step-by-step approach)
