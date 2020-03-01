@@ -6,6 +6,13 @@ After setting up the sandbox I started with the first and easiest assignment.
 
 # FLARE-On Challange 5 (step-by-step approach)
 
+Challanges found on http://flare-on.com/, pw: infected
+
+## MinesweeperChampionshipRegistration
+
+ - Opening the file 
+
+
 # FLARE-On Challange 6 (step-by-step approach)
 
 ## Memecat Battlestation
