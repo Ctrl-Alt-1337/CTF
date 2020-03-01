@@ -24,6 +24,7 @@ editors will provide a single-byte XOR capability. Alternatively, you could perf
 CyberChef (https://gchq.github.io/CyberChef/).
 If you XOR decode each byte of this sequence with ‘A’ (hex ‘41’) then you get this array of characters
 ‘Bagel_Cannon’."
+   - After typing ‘Bagel_Cannon’, a victory screen was seen.
   
   
   
