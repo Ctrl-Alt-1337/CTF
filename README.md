@@ -18,7 +18,7 @@ Challanges found on http://flare-on.com/, pw: infected
 ## UltimateMinesweeper
 
 - Statically analyzing the file through pestudio, written in .NET, 32 bit
-- Opening the file through ilspy, looking at two functions; ```InitializeComponent() and ```MineFieldControl_MouseCLick()```. Tells me flags are inserted into an array possibly.
+- Opening the file through ilspy, looking at two functions; ```InitializeComponent()``` and ```MineFieldControl_MouseCLick()```. Tells me flags are inserted into an array possibly.
 - Trying to debug with olly, some anti-debugger is present, Cheat-Engine works, however.
 - I see mines remaining changes value when I flag the minefield (right-click), this way I can find the address for 'Mines Remaining'. By the principle of spatial locality wrt. data structures, the rest of the code may be relatively near. By using Cheat Engines "Dissect Structure" we can see datastructures relatively near the 'Mines Remaining' address:
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper1.png)
