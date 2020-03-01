@@ -14,9 +14,7 @@ After setting up the sandbox I started with the first and easiest assignment.
   - 2) Since it's a .NET file, there is no need to statically or dynamically analyze the binary.
   - 3) Used the tool ```ilSpy``` in C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FLARE\dotNET to open the file.
   - 4) Got familiar with the code and went to the function ```FireButton_Click``` to find the first message to insert into the memecat program: RAINBOW.
-  - 5) I understood ```isValidWeaponCode``` was somehow XOR'ing some input with the 'A' character, and I could see some kind of comparison was made with the char array: '\u0003', ' ', '&', '$', '-', '\u001e', '\u0002', ' ', '/', '/', '.', '/'. 
-
-Here I had to get [help](https://www.fireeye.com/content/dam/fireeye-www/blog/pdfs/FlareOn6_Challenge1_Solution_MemecatBattlestation.pdf):
+  - 5) I understood ```isValidWeaponCode``` was somehow XOR'ing some input with the 'A' character, and I could see some kind of comparison was made with the char array: '\u0003', ' ', '&', '$', '-', '\u001e', '\u0002', ' ', '/', '/', '.', '/'. Here I had to get [help](https://www.fireeye.com/content/dam/fireeye-www/blog/pdfs/FlareOn6_Challenge1_Solution_MemecatBattlestation.pdf):
 "The values may be confusing to read if you are new to reversing .NET in dnSpy, but the characters like the
 first that begin with ‘\u’ are specified in hexadecimal and do not have an ASCII representation. One
 approach would be to convert all of the values to hexadecimal and enter them into a hex editor, or enter
