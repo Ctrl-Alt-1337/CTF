@@ -1,12 +1,14 @@
-# FLARE-On Challange 6 (Approach)
-
-## Installing FlareVM
+# Installing FlareVM
 
 First off I installed [FlareVM](https://github.com/fireeye/flare-vm). Since I had no prior experience with CTF assignments I watched the playlist from [HacerSploit](https://www.youtube.com/watch?v=ZKObRxxbOCQ&list=PLBf0hzazHTGMSlOI2HZGc08ePwut6A2Io).
 
 After setting up the sandbox I started with the first and easiest assignment.
 
-### Memecat Battlestation
+# FLARE-On Challange 5 (step-by-step approach)
+
+# FLARE-On Challange 6 (step-by-step approach)
+
+## Memecat Battlestation
 
 - First We are presented with a simple game written in .NET. Since .NET written code can be easily dissambled to readable C# code.
 - My approach:
@@ -25,6 +27,8 @@ CyberChef (https://gchq.github.io/CyberChef/).
 If you XOR decode each byte of this sequence with ‘A’ (hex ‘41’) then you get this array of characters
 ‘Bagel_Cannon’."
    - After typing ‘Bagel_Cannon’, a victory screen was seen.
+   
+
   
   
   
