@@ -36,11 +36,10 @@ Challanges found on http://flare-on.com/, pw: infected
 
 ## Memecat Battlestation
 
-- First We are presented with a simple game written in .NET. Since .NET written code can be easily dissambled to readable C# code.
+- First off, we are presented with a 32-bit game written in .NET. 
 - My approach:
-  - First I took a snapshot, then opened the file and saw how the game looked like.
-  - Since it's a .NET file, there is no need to statically or dynamically analyze the binary.
-  - Used the tool ```ilSpy``` in C:\ProgramData\Microsoft\Windows\Start Menu\Programs\FLARE\dotNET to open the file.
+  - First I took a snapshot of the VM, then opened the file and saw how the game looked like.
+  - Used the tool ```ilSpy``` to open the file.
   - Got familiar with the code and went to the function ```FireButton_Click``` to find the first message to insert into the memecat program: RAINBOW.
   - I understood ```isValidWeaponCode``` was somehow XOR'ing some input with the 'A' character, and I could see some kind of comparison was made with the char array: '\u0003', ' ', '&', '$', '-', '\u001e', '\u0002', ' ', '/', '/', '.', '/'. Here I had to get [help](https://www.fireeye.com/content/dam/fireeye-www/blog/pdfs/FlareOn6_Challenge1_Solution_MemecatBattlestation.pdf) to understand I had to XOR decode each byte of the sequence with ‘A’ (hex ‘41’) to get the array of characters: ‘Bagel_Cannon’.
 
