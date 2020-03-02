@@ -3,6 +3,7 @@
  - Encoding/decoding
  - Deobfuscation techniques
  - Better at static analysis, especially using IDA pro.
+ - Get more familiar with Malware Analysis tools besides CE and olly/windbg 
 
 # Installing FlareVM
 
