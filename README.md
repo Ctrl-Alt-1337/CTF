@@ -1,3 +1,9 @@
+# Skills I need to work on in order to progress
+ - Packed binary
+ - Encoding/decoding
+ - Deobfuscation techniques
+ - Better at static analysis, especially using IDA pro.
+
 # Installing FlareVM
 
 First off I installed [FlareVM](https://github.com/fireeye/flare-vm). Since I had no prior experience with CTF assignments I watched the playlist from [HackerSploit](https://www.youtube.com/watch?v=ZKObRxxbOCQ&list=PLBf0hzazHTGMSlOI2HZGc08ePwut6A2Io).
