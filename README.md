@@ -41,6 +41,8 @@ Challanges found on http://flare-on.com/, pw: infected
 
 # FLARE-On Challange 6 (step-by-step approach)
 
+Challanges found on http://flare-on.com/, pw: flare
+
 ## Memecat Battlestation
 
 - First off, we are presented with a 32-bit game written in .NET. 
