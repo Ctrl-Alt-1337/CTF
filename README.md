@@ -11,9 +11,9 @@ First off I installed [FlareVM](https://github.com/fireeye/flare-vm). Since I ha
 
 After setting up the sandbox I started with the first and easiest assignments.
 
-# FLARE-On Challange 5 (step-by-step approach)
+# FLARE-On Challenge 5 (step-by-step approach)
 
-Challanges found on http://flare-on.com/, pw: infected
+Challenges found on http://flare-on.com/, pw: infected
 
 ## MinesweeperChampionshipRegistration
 
@@ -39,9 +39,9 @@ Challanges found on http://flare-on.com/, pw: infected
 - By changing the values in minesVisible from 0 to 1 we can now reveal where the all non-mine squares are.
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper5.png)
 
-# FLARE-On Challange 6 (step-by-step approach)
+# FLARE-On Challenge 6 (step-by-step approach)
 
-Challanges found on http://flare-on.com/, pw: flare
+Challenges found on http://flare-on.com/, pw: flare
 
 ## Memecat Battlestation
 
