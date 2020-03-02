@@ -27,7 +27,7 @@ Challanges found on http://flare-on.com/, pw: infected
 - Statically analyzing the file through pestudio, written using .NET, 32-bit
 - Opening the file through ilspy, looking at two functions; ```InitializeComponent()``` and ```MineFieldControl_MouseCLick()```. Tells me flags, bombs etc are inserted into an array possibly.
 - Trying to debug with olly, it's likely some anti-debugger is present, atleast it crashed. Cheat-Engine works, however.
-- I see 'Mines remaining' counter changes value when I flag the minefield (right-click), this way I can find the address for 'Mines Remaining'. By the principle of spatial locality wrt. data structures, the rest of the code may be relatively near. By using Cheat Engines "Dissect Structure" we can see the relevant datastructures are relatively near the 'Mines Remaining' address:
+- I see 'Mines remaining' counter changes value when I flag the minefield (right-click), this way I can find the address for 'Mines Remaining'. By the principle of locality wrt. data structures, the rest of the code may be relatively near. By using Cheat Engines "Dissect Structure" we can see the relevant datastructures are relatively near the 'Mines Remaining' address:
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper1.png)
 - We are now scrolling down and finding some interesting offsets; "mineField" and some other interesting offsets. 
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper2.png)
