@@ -33,8 +33,8 @@ Challanges found on http://flare-on.com/, pw: infected
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper2.png)
 - Looking more into "mineField" it's possible to find an array 999 large, as big as the amount of fields. 
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper3.png)
-- It should now be possible to iterate through the array and find 3 elements not set to 1 (these should be the flags).
-- We find the the pointer chain so we have the correct addresses everytime we start a new game.
+- It should now be possible to iterate through the array and find 3 elements not set to 1.
+- We find the pointer chain so we have the correct addresses everytime we start a new game.
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper4.png)
 - By changing the values in minesVisible from 0 to 1 we can now reveal where the all non-mine squares are.
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper5.png)
