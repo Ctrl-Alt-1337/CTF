@@ -25,13 +25,13 @@ Challanges found on http://flare-on.com/, pw: infected
 ## UltimateMinesweeper
 
 - Statically analyzing the file through pestudio, written in .NET, 32 bit
-- Opening the file through ilspy, looking at two functions; ```InitializeComponent()``` and ```MineFieldControl_MouseCLick()```. Tells me flags are inserted into an array possibly.
-- Trying to debug with olly, some anti-debugger is present, Cheat-Engine works, however.
-- I see mines remaining changes value when I flag the minefield (right-click), this way I can find the address for 'Mines Remaining'. By the principle of spatial locality wrt. data structures, the rest of the code may be relatively near. By using Cheat Engines "Dissect Structure" we can see datastructures relatively near the 'Mines Remaining' address:
+- Opening the file through ilspy, looking at two functions; ```InitializeComponent()``` and ```MineFieldControl_MouseCLick()```. Tells me flags, bombs etc are inserted into an array possibly.
+- Trying to debug with olly, it's likely some anti-debugger is present, atleast it crashed. Cheat-Engine works, however.
+- I see 'Mines remaining' counter changes value when I flag the minefield (right-click), this way I can find the address for 'Mines Remaining'. By the principle of spatial locality wrt. data structures, the rest of the code may be relatively near. By using Cheat Engines "Dissect Structure" we can see the relevant datastructures are relatively near the 'Mines Remaining' address:
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper1.png)
 - We are now scrolling down and finding some interesting offsets; "mineField" and some other interesting offsets. 
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper2.png)
-- Looking more into "mineField" it's possible to find an array 999 large, as big as the amount of fields. 
+- Looking more into "mineField" it's possible to find an array 900 large, as big as the amount of fields. We identified the relevant structures. 
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper3.png)
 - It should now be possible to iterate through the array and find 3 elements not set to 1.
 - We find the pointer chain so we have the correct addresses everytime we start a new game.
