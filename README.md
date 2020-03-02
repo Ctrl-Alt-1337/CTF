@@ -1,5 +1,5 @@
-# Skills I need to work on in order to progress
- - Packed binary
+# Skills I need to work on
+ - Packed binaries
  - Encoding/decoding
  - Deobfuscation techniques
  - Better at static analysis, especially using IDA pro.
