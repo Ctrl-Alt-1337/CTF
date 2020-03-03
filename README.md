@@ -36,7 +36,7 @@ Challenges found on http://flare-on.com/, pw: infected
 - It should now be possible to iterate through the array and find 3 elements not set to 1.
 - We find the pointer chain so we have the correct addresses everytime we start a new game.
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper4.png)
-- By changing the values in minesVisible from 0 to 1 we can now reveal where the all non-mine squares are.
+- By changing the values in minesVisible from 0 to 1 we can now reveal where all non-mine squares are.
 ![alt text](https://github.com/Ctrl-Alt-1337/CTF/blob/master/UltimateMinesweeper5.png)
 
 # FLARE-On Challenge 6 (step-by-step approach)
