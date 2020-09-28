@@ -2,12 +2,6 @@
 
 When I have the time I will upload more solutions and step-by-step approaches. Mainly wrt. reverse engineering.
 
-# Installing FlareVM
-
-First off I installed [FlareVM](https://github.com/fireeye/flare-vm). Since I had no prior experience with CTF assignments I watched the playlist from [HackerSploit](https://www.youtube.com/watch?v=ZKObRxxbOCQ&list=PLBf0hzazHTGMSlOI2HZGc08ePwut6A2Io).
-
-After setting up the sandbox I started with the first and easiest assignments.
-
 # FLARE-On Challenge 5 (step-by-step approach)
 
 Challenges found on http://flare-on.com/, pw: infected
