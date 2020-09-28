@@ -1,9 +1,6 @@
-# Skills I need to work on
- - Packed binaries
- - Encoding/decoding
- - Deobfuscation techniques
- - Better at static analysis, especially using IDA pro, reading assembly.
- - Get more familiar with Malware Analysis tools besides CE and olly/windbg 
+# Intro
+
+When I have the time I will upload more solutions and step-by-step approaches. Mainly wrt. reverse engineering.
 
 # Installing FlareVM
 
